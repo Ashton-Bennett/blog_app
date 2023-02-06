@@ -1,0 +1,9 @@
+PUT  http://localhost:3003/api/blogs/63d4095aaa222e495b08785e/comments
+Content-Type: application/json
+ Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJ1ZGQiLCJpZCI6IjYzNjE4Yjc2ODc3ODg2NWE2OGQ1ZGU0NyIsImlhdCI6MTY2NzMzNzIxNH0.TaRgsoUUoneY9UU_vhwa9MDyauzAUUaAG-ZudPuUHzc
+ 
+{
+    "content": "Pretty cool if you ask me...",
+     "id": "63d4095aaa222e495b08785e"
+
+}  
