@@ -10,10 +10,10 @@ usersRouter.get("/", async (request, response) => {
   });
   response.end(JSON.stringify(users, null, 10));
 });
-// TO MAKE THE CONTACTS SPREAD OUT USE -> response.end(JSON.stringify(persons,null,10))
+
+// TO MAKE THE USERS SPREAD OUT USE -> response.end(JSON.stringify(persons,null,10))
 usersRouter.post("/", async (request, response) => {
   const { username, name, password } = request.body;
-
   const existingUser = await User.findOne({ username });
   if (existingUser) {
     return response.status(400).json({
@@ -43,7 +43,7 @@ usersRouter.post("/", async (request, response) => {
   });
 
   const savedUser = await user.save();
-
+  console.log("USER CREATED");
   response.status(201).json(savedUser);
 });
 
