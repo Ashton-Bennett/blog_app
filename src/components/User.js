@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import computerIllastration from "/Users/ashtonbennett/Desktop/fullstackopen/bloglist-frontend/src/images/undraw_progressive_app_m-9-ms.svg";
+import computerIllastration from "../images/undraw_progressive_app_m-9-ms.svg";
 
 const subheadingStyle = {
   fontSize: "2.5rem",

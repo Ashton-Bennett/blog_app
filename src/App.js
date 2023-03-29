@@ -2,7 +2,12 @@ import { useDispatch, useSelector } from "react-redux";
 import BlogList from "./components/blog/BlogList";
 import Blog from "./components/blog/Blog";
 import Users from "./components/Users";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import LoginForm from "./components/LoginForm";
 import User from "./components/User";
 import NavBar from "./components/NavBar";
@@ -23,14 +28,18 @@ const App = () => {
       blogService.setToken(user.token);
     }
   }, []);
-
+  const user = useSelector((state) => state.user);
+  console.log("USER IN APP:", user);
   return (
     <ChakraProvider>
       <Router>
         <div>
           <NavBar />
           <Routes>
-            <Route path="/" element={<BlogList />} />
+            <Route
+              path="/"
+              element={user ? <BlogList /> : <Navigate replace to={"/login"} />}
+            />
             <Route path="/blogs" element={<BlogList />} />
             <Route path="/blogs/:id" element={<Blog />} />
             <Route path="/login" element={<LoginForm />} />

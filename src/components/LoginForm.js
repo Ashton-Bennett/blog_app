@@ -9,6 +9,7 @@ import { ArrowForwardIcon } from "@chakra-ui/icons";
 import Notification from "./Notification";
 import "../style.css";
 import { Input, InputGroup, Button } from "@chakra-ui/react";
+import CreateAccountButton from "./CreateAccountButton";
 
 const bodyStyle = {
   backgroundColor: "#00C2BA",
@@ -101,6 +102,7 @@ const LoginForm = () => {
           >
             login
           </Button>
+          <CreateAccountButton />
         </form>
       </div>
     </div>

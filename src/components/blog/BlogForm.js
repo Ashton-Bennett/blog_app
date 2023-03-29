@@ -8,8 +8,7 @@ import {
   removeMessage,
 } from "../../reducers/notificationReducer";
 import { Input, InputGroup, InputLeftElement, Button } from "@chakra-ui/react";
-
-import "/Users/ashtonbennett/Desktop/fullstackopen/bloglist-frontend/src/style.css";
+import "../../style.css";
 
 const h2Style = {
   fontSize: "1.5rem",
@@ -63,7 +62,6 @@ const BlogForm = ({ dispatch }) => {
         {" "}
         <InputGroup className="inputGroup">
           <InputLeftElement children="Title:" />
-
           <Input
             required
             style={blogFormStyle}
