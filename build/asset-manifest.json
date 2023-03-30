@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.59848029.css",
+    "main.js": "/static/js/main.d6e79a75.js",
+    "static/media/undraw_pair_programming_re_or4x.svg": "/static/media/undraw_pair_programming_re_or4x.c4a285212c881fea71b1e3db9dd88f53.svg",
+    "static/media/undraw_programming_re_kg9v.svg": "/static/media/undraw_programming_re_kg9v.b5a9f2279d13c316bf49cb10f09ff41a.svg",
+    "static/media/undraw_firmware_re_fgdy.svg": "/static/media/undraw_firmware_re_fgdy.c974d9c5967292324511e36bbb71aab5.svg",
+    "static/media/undraw_in_the_office_re_jtgc.svg": "/static/media/undraw_in_the_office_re_jtgc.fa9f757de1c2eb0a0dabd6930133d711.svg",
+    "static/media/undraw_programmer_re_owql.svg": "/static/media/undraw_programmer_re_owql.e2d102ec85bc35039dc42c4605672fce.svg",
+    "static/media/undraw_remotely_-2-j6y.svg": "/static/media/undraw_remotely_-2-j6y.019be525003135e123bcdb75ec3155e8.svg",
+    "static/media/undraw_open_source_-1-qxw.svg": "/static/media/undraw_open_source_-1-qxw.1b0a64636c875fbca37a8412a90413f0.svg",
+    "static/media/undraw_engineering_team_a7n2.svg": "/static/media/undraw_engineering_team_a7n2.f8acfc2b5fd1d36a6ab66c56a2ee21a0.svg",
+    "static/media/undraw_next_tasks_re_5eyy.svg": "/static/media/undraw_next_tasks_re_5eyy.b220faa1caf44d79cd0b933d8276273c.svg",
+    "static/media/undraw_content_team_re_6rlg.svg": "/static/media/undraw_content_team_re_6rlg.22d485dc11e91d6eb80aa29b926147c3.svg",
+    "static/media/undraw_online_test_re_kyfx.svg": "/static/media/undraw_online_test_re_kyfx.ab7b52ae48caefa2ed792103e1b056e0.svg",
+    "static/media/undraw_data_processing_yrrv.svg": "/static/media/undraw_data_processing_yrrv.e617a996d40395d2ccbe240663506d4c.svg",
+    "static/media/chat_bot.svg": "/static/media/chat_bot.340d434185848b1e1ea24c7538859677.svg",
+    "static/media/undraw_data_input_fxv2.svg": "/static/media/undraw_data_input_fxv2.1d34203b953d983c91207d0cd3bd8d81.svg",
+    "static/media/undraw_secure_server_re_8wsq.svg": "/static/media/undraw_secure_server_re_8wsq.90e09714876de0323a3538f9d2177d97.svg",
+    "static/media/undraw_code_thinking_re_gka2.svg": "/static/media/undraw_code_thinking_re_gka2.517aca9604afab7a054795323ddc36fe.svg",
+    "static/media/undraw_progressive_app_m-9-ms.svg": "/static/media/undraw_progressive_app_m-9-ms.649ff5c5cabd2b687928c92cd64b126d.svg",
+    "static/media/undraw_server_cluster_jwwq.svg": "/static/media/undraw_server_cluster_jwwq.2c993d523f4bf9913bc79f36fe9810c4.svg",
+    "index.html": "/index.html",
+    "main.59848029.css.map": "/static/css/main.59848029.css.map",
+    "main.d6e79a75.js.map": "/static/js/main.d6e79a75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59848029.css",
+    "static/js/main.d6e79a75.js"
+  ]
+}
