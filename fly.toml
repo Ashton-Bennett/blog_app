@@ -1,16 +1,14 @@
-# fly.toml file generated for -fullstack-blog-sharing-app-by-ashton on 2023-03-28T12:13:53-06:00
+# fly.toml file generated for blog-app-by-ashton on 2023-03-29T09:15:34-06:00
 
-app = "-fullstack-blog-sharing-app-by-ashton"
+app = "blog-app-by-ashton"
 kill_signal = "SIGINT"
 kill_timeout = 5
 primary_region = "sjc"
 processes = []
 
-[build]
-  image = "flyio/hellofly:latest"
-
 [env]
-  PORT = 8080
+  PORT = "8080"
+
 [experimental]
   auto_rollback = true
 
